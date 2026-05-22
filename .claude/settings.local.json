@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(Get-ChildItem -Path \"G:\\\\Helix-CRM-Dashboard\" -Recurse -File)",
+      "Bash(Select-Object FullName, Length, LastWriteTime)",
+      "Bash(Sort-Object FullName)",
+      "PowerShell(New-Item *)"
+    ]
+  }
+}

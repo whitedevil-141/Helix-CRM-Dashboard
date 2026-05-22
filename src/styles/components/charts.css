@@ -1,0 +1,9 @@
+@keyframes bar-grow {
+  from { transform: scaleY(0); transform-origin: bottom; }
+  to { transform: scaleY(1); }
+}
+
+svg rect {
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
